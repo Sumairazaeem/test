@@ -1,0 +1,355 @@
+body {
+	overflow-x:hidden;
+	font-family: sans-serif;
+	color:#505962;
+
+}
+.offset:before{
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+.navbar{
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:14.4px;
+	letter-spacing:1.6px;
+	background:rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+	height:75px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.navbar-nav li{
+	padding-right:11.2px;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+color:#fc4237;
+
+}
+.header1{
+	
+	/*width: 100%;
+	height: 650px;
+	position: relative;
+	background-image: url(pics/rest.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+
+	width: 100%;
+	height: 755px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(pics/rest.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.captionh{
+
+	width:100%;
+	max-width: 100%;
+	position: absolute;
+	top:30%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+
+}
+.captionh h1{
+	font-size: 60.8px;
+	font-weight: 700;
+	letter-spacing: 4.8px;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	padding-bottom: 16px;
+font-family:sans-serif, cursive;
+}
+.captionh h3{
+	font-size: 32px;
+	text-shadow: 1.6px 1.6px 8px black;
+	padding-bottom: 25.6px;
+}
+.caption{
+	width:100%;
+	max-width: 100%;
+	position: absolute;
+	top:40%;
+	z-index: 1;
+	color: white;
+	
+
+}
+
+.headingm-underline{
+	width: 200px;
+	height: 3.2px;
+	background-color:white;
+	margin:10px auto 52px;
+
+}
+.caption h1{
+	font-size: 60.8px;
+	font-weight: 700;
+	letter-spacing: 4.8px;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	padding-bottom: 16px;
+font-family:sans-serif;
+text-transform: uppercase;
+}
+.caption h3{
+	font-size: 32px;
+	text-shadow: 1.6px 1.6px 8px black;
+	padding-bottom: 25.6px;
+}
+.btn-lg{
+	border-width: medium;
+	border-radius:0;
+	padding:9.6px 20.8px;
+	font-size: 17.6px;
+	color:white;
+	background-color:#fc4237;
+	border-color:#fc4237;
+}
+.btn-lg:hover{
+	background-color:#FE5248;
+	border-color:#FE5248;
+	color:white;
+
+}
+.narrow{
+	width: 90%;
+	margin:1.5rem auto;
+	padding-top: 2rem;
+}
+.aboutus img{
+	width: 100%;
+
+}
+.col-md-6.aboutus p{
+	
+	font-size: 19px;
+	color: #393838;
+	/*padding-left: 50px;*/
+	font-family: Myriad Pro;
+	text-align: center;
+	padding: 0px auto;
+	padding-top: 40px;
+
+}
+.service img{
+	width: 100%;
+}
+
+.team-img img{
+	width: 100%;
+	border-radius: 50%;
+	
+
+}
+.team-detail{
+	padding-top: 25px;
+
+}
+.jumbotron{
+	margin-bottom: 0;
+	padding: 32px 0 56px;
+	border-radius: 0;
+}
+h3.heading{
+	font-size:30.4px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30.4px;
+}
+
+.service h3{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+	font-weight: bold;
+}
+.service h3:hover{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+	color:#fc4237;
+}
+.heading-underline{
+	width: 48px;
+	height: 3.2px;
+	background-color:#fc4237;
+	margin:0 auto 32px;
+}
+footer{
+	background-color: black;
+	color: #d5d5d5;
+	padding: 2rem;
+
+}
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+footer a{
+	color: #d5d5d5;
+
+}
+footer img{
+	height: 80px;
+	margin: 25px;
+
+}
+footer svg.svg-inline--fa{
+	font-size: 25.6px;
+	margin: 19.2px 8px 0 0;
+}
+footer svg.svg-inline--fa:hover{
+	color:#fc4237!important;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+.carousel-inner{
+	margin top: 0px;
+
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+	
+}
+.carousel-caption{
+	position: absolute;
+	top:60%;
+	transform: translateY(-50%);
+
+}
+.carousel-caption h1 {
+	font-size: 400%;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+	font-size:200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 16px;
+
+}
+
+@media (min-width: 992px) {
+
+	.maincaption{
+		top:20%;
+	}
+
+ }
+@media (max-width: 768px) { 
+.maincaption{
+	
+	top:20%;
+	
+}
+.captionh{
+	top:20%;
+}
+.maincaption h1{
+	font-size: 350%;
+	
+}
+.maincaption h3{
+	font-size: 140%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+
+.cap h1,.captionh h1{
+	font-size: 350%;
+	font-weight: 700;
+}
+.cap h3,.captionh h3{
+	font-size: 140%;
+}
+
+.maincaption.btn{
+	font-size: 95%;
+	padding:8px,14px; 
+}
+
+.collapsible {
+ font-weight: 100px;
+    font-size: 30px;
+}
+
+.location-inner,.team-inner,.menu-inner,.order-inner,.header1,.header2,.orderonline,.header9{
+	/*background: url(../images/resturant6.jpg) no-repeat center center fixed;*/
+	width: 100%;
+	height: 550px;
+
+ }
+}
+@media (max-width: 576px) { 
+
+	.mymenu img{
+	max-width: 100%;
+	max-height: 100%;
+	transition: transform .5s ease;
+}
+
+.location-inner,.team-inner,.menu-inner,.order-inner,.header1,.header2,.orderonline,.header9{
+width: 100%;
+height: 350px;
+}
+.collapsible {
+ font-weight: 100px;
+ font-size: 20px;
+}
+.maincaption{
+top:10%;
+}
+.maincaption h1{
+font-size: 250%;
+	
+}
+
+.maincaption.btn{
+	font-size: 75%;
+	padding:4px,7px; 
+}
+.maincaption h3{
+	font-size: 110%;
+}
+.captionh{
+	top:13%;
+}
+
+.headingm-underline{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.cap h1,.captionh h1{
+	font-size: 250%;
+	font-weight: 700;
+}
+.cap h3,.captionh h3{
+	font-size: 110%;
+}
+ }

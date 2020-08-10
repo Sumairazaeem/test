@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Great+Vibes|Lobster|Pacifico&display=swap');
+body {
+	overflow-x:hidden;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color:#505962;
+
+}
+.offset:before{
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+.navbar{
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:14.4px;
+	letter-spacing:1.6px;
+	background:rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+	height:75px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.navbar-nav li{
+	padding-right:11.2px;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+color:#e00000;
+
+}
+.header{
+	
+	width: 100%;
+	height: 650px;
+	position: relative;
+	background-image: url(../images/mylogo.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.caption{
+
+	width:100%;
+	max-width: 100%;
+	position: absolute;
+	top:40%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+
+}
+.caption h1{
+	font-size: 60.8px;
+	font-weight: 700;
+	letter-spacing: 4.8px;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	padding-bottom: 16px;
+font-family:sans-serif, cursive;
+}
+.caption h3{
+	font-size: 32px;
+	text-shadow: 1.6px 1.6px 8px black;
+	padding-bottom: 25.6px;
+}
+.btn-lg{
+	border-width: medium;
+	border-radius:0;
+	padding:9.6px 20.8px;
+	font-size: 17.6px;
+	color:white;
+	/*background-color:#fc4237;
+	border-color:#fc4237;*/
+}
+.btn-lg:hover{
+	background-color:#bb0a1e;
+	border-color:#bb0a1e;
+	color:white;
+
+}
+
+/*.btn-primary{
+	color:white;
+	background-color:#fc4237;
+	border-color:#fc4237;
+
+}
+.btn-primary:hover{
+	background-color:#FE5248;
+	border-color:#FE5248;
+	color:white;
+
+}*/
+.narrow{
+	width: 90%;
+	margin:1.5rem auto;
+	padding-top: 2rem;
+}
+.aboutus img{
+	width: 100%;
+
+}
+.col-md-6.aboutus p{
+	
+	font-size: 19px;
+	color: #393838;
+	/*padding-left: 50px;*/
+	font-family: Myriad Pro;
+	text-align: center;
+	padding: 0px auto;
+	padding-top: 30px;
+
+}
+.service img{
+	width: 50%;
+	height: 50%;
+}
+.team-img img{
+	width: 30%;
+	border-radius: 50%;
+	
+
+}
+.team-detail{
+	padding-top: 25px;
+}
+.jumbotron{
+	margin-bottom: 0;
+	padding: 32px 0 56px;
+	border-radius: 0;
+}
+h3.heading{
+	font-size:30.4px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30.4px;
+}
+
+.service h3{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+	font-weight: bold;
+}
+.service h3:hover{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+	color:#fc4237;
+}
+.headingm-underline{
+	width: 200px;
+	height: 3.2px;
+	background-color:white;
+	margin:10px auto 52px;
+
+}
+footer{
+	background-color: black;
+	color: #d5d5d5;
+	padding: 2rem;
+
+}
+
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+footer a{
+	color: #d5d5d5;
+
+}
+footer img{
+	height: 80px;
+	margin: 25px;
+
+}
+footer svg.svg-inline--fa{
+	font-size: 25.6px;
+	margin: 19.2px 8px 0 0;
+}
+footer svg.svg-inline--fa:hover{
+	color:#fc4237!important;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+.carousel-inner{
+	margin top: 0px;
+
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+	
+}
+.carousel-caption{
+	position: absolute;
+	top:60%;
+	transform: translateY(-50%);
+
+}
+.carousel-caption h1 {
+	font-size: 400%;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+	font-size:200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 16px;
+
+}
+.form-control:focus{
+	border-color:#FE5248;  
+	 
+	-webkit-box-shadow: none;} 
+
+@media (max-width: 768px) {
+  .carousel-caption h1 { font-size: 200%;}
+  .carousel-caption h3 {font-size: 100%;}  
+}
+/*new css*/
+
+.maincaption{
+
+	width:100%;
+	max-width: 100%;
+	position: absolute;
+	top:38%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+
+}
+.maincaption h1{
+	/*font-size: 60.8px;*/
+	font-size: 500%;
+	font-weight: 700;
+	letter-spacing: 4.8px;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	padding-bottom: 16px;
+font-family:sans-serif, cursive;
+}
+.maincaption h3{
+	/*font-size: 32px;*/
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1.6px 1.6px 8px black;
+	padding-bottom: 25.6px;
+}
+.btn-primary{
+	background-color: #e00000;
+	border:1px solid #e00000;
+	color: white;
+}
+
+.btn-primary:hover{
+	background-color: #bb0a1e;
+	border:1px solid #bb0a1e;
+	color: white;
+}
+
+video{
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+	width:100%; 
+	height:100%;
+	}
+.video-background{
+	position: relative;
+
+	width: 100%;
+	height: 100%
+	/*min-width: 100%;*/
+	min-height: 100vh;
+	background-color: rgba(0,0,0,0.9);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.parts{
+	position: relative;
+	width: 100%;
+	height: 100%
+	/*min-width: 100%;*/
+	min-height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.location-inner{
+	/*background: url(../images/resturant6.jpg);*/
+	background:linear-gradient( rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2) ),url(../images/resturant6.jpg) no-repeat center center fixed;
+	width: 100%;
+	height: 650px;
+	position: relative;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.cap{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	/*top: 150%;*/
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	z-index: 1;
+	color: white;
+
+}
+.cap h1{
+	font-size: 60.8px;
+	font-weight: 700;
+	letter-spacing: 4.8px;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	padding-bottom: 16px;
+font-family:sans-serif, cursive;
+}
+.cap h3{
+	font-size: 32px;
+	text-shadow: 1.6px 1.6px 8px black;
+	padding-bottom: 25.6px;
+	font-family: 'Lobster', cursive;
+}
+
+
+.team-inner{
+	/*background-image: url(../images/team1.jpg);*/
+	background:linear-gradient( rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2) ),url(../images/team1.jpg) ;
+	width: 100%;
+	height: 650px;
+	position: relative;
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.menu-inner{
+	/*background-image: url(../images/menu2.jpg);*/
+	background:linear-gradient( rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2) ),url(../images/menu2.jpg) ;
+	width: 100%;
+	height: 650px;
+	position: relative;
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+	.order-inner{
+	/*background-image: url(../images/order1.jpg);*/
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/order1.jpg) no-repeat center center fixed;
+	width: 100%;
+	height: 650px;
+	position: relative;
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+
+	.myheader{
+	/*background-image: url(../images/resturant2.jpg);*/
+	background: linear-gradient( rgba(0,0,0,0.9), rgba(0, 0, 0, 0.9) ),url(../images/header1.jpg) no-repeat center center fixed;
+	width: 100%;
+	height: 250px;
+	position: relative;
+	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+
+/*menu*/
+.header1{
+	
+	width: 100%;
+	height: 755px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/menu1.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+.orderonline{
+	
+	width: 100%;
+	height: 755px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/online1.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.online1{
+	
+	width: 100%;
+	height: 755px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/rev2.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+.header2{
+	
+	width: 100%;
+	height: 755px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/locat.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header3{
+	
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/loc1.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header4{
+	
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/loc2.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header5{
+	
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/loc3.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header6{
+	
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/loc4.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header7{
+	
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/loc5.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header8{
+	
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/loc6.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header9{
+	
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background:linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ),url(../images/cont.jpg) no-repeat center center fixed;
+	/*background-image: url(../images/menu1.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.addr{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.captionh{
+
+	width:100%;
+	max-width: 100%;
+	position: absolute;
+	top:30%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+
+}
+.captionh h1{
+	font-size: 60.8px;
+	font-weight: 700;
+	letter-spacing: 4.8px;
+	text-shadow: 1.6px 1.6px 12.8px black;
+	padding-bottom: 16px;
+font-family:sans-serif, cursive;
+}
+.captionh h3{
+	font-size: 32px;
+	text-shadow: 1.6px 1.6px 8px black;
+	padding-bottom: 25.6px;
+}
+.headp{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+
+}
+.headp h3{
+	font-family: 'Lobster', cursive;
+}
+.spacetext{
+	font-size: 30px;
+	color: black;
+	font-style: cursive;
+
+}
+
+
+.mymenu img{
+	max-width: 100%;
+	transition: transform .5s ease;
+}
+.row.no-padding [class*=col-]{
+	padding: 0;
+}
+.mymenu img:hover{
+	transform: scale(1.1);
+	opacity: 0.3;
+}
+.mymenu:hover .overlay {
+  opacity: 1;
+}
+
+.mymenu {
+	overflow: hidden;
+	background-color: brown;
+
+}
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.price h1{
+
+	color: black;
+	font-size: 36px;
+	font-weight: 700px;
+	font-style: bold;
+	font-family: 'Abril Fatface', cursive;
+
+}
+.price h3 {
+  background-color: white;
+  color: brown;
+  }
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  
+  outline: none;
+  
+  font-weight: 1000px;
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.active, .collapsible:hover {
+  background-color:black;
+  color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+@media (min-width: 992px) {
+
+	.maincaption{
+		top:20%;
+	}
+
+ }
+@media (max-width: 768px) { 
+.maincaption{
+	
+	top:20%;
+	
+}
+.captionh{
+	top:20%;
+}
+.maincaption h1{
+	font-size: 350%;
+	
+}
+.maincaption h3{
+	font-size: 140%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+
+.cap h1,.captionh h1{
+	font-size: 350%;
+	font-weight: 700;
+}
+.cap h3,.captionh h3{
+	font-size: 140%;
+}
+
+.maincaption.btn{
+	font-size: 95%;
+	padding:8px,14px; 
+}
+
+.collapsible {
+ font-weight: 100px;
+    font-size: 30px;
+}
+
+.location-inner,.team-inner,.menu-inner,.order-inner,.header1,.header2,.orderonline,.header9{
+	/*background: url(../images/resturant6.jpg) no-repeat center center fixed;*/
+	width: 100%;
+	height: 550px;
+
+ }
+}
+@media (max-width: 576px) { 
+
+	.mymenu img{
+	max-width: 100%;
+	max-height: 100%;
+	transition: transform .5s ease;
+}
+
+.location-inner,.team-inner,.menu-inner,.order-inner,.header1,.header2,.orderonline,.header9{
+width: 100%;
+height: 350px;
+}
+.collapsible {
+ font-weight: 100px;
+ font-size: 20px;
+}
+.maincaption{
+top:10%;
+}
+.maincaption h1{
+font-size: 250%;
+	
+}
+
+.maincaption.btn{
+	font-size: 75%;
+	padding:4px,7px; 
+}
+.maincaption h3{
+	font-size: 110%;
+}
+.captionh{
+	top:13%;
+}
+
+.headingm-underline{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.cap h1,.captionh h1{
+	font-size: 250%;
+	font-weight: 700;
+}
+.cap h3,.captionh h3{
+	font-size: 110%;
+}
+ }
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
